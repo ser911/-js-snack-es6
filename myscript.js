@@ -36,9 +36,8 @@ console.log(teams);
 
 var newTeams = [];
 for (var i = 0; i < teams.length; i++) {
-  newTeams.push({
-  nome: teams[i].nome,
-  falli: teams[i].falli
-  })
+  newTeams.push(
+const { nomi, falli } = teams[i]
+  )
 }
 console.log(newTeams);
